@@ -35,5 +35,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!(@antv/xflow-core/es|antd/es|lodash-es)/)"
+    ]
   }
 }
