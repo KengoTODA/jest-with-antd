@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,5 +43,8 @@
     "transformIgnorePatterns": [
       "node_modules/(?!(@antv/xflow-core/es|antd/es|lodash-es)/)"
     ]
+  },
+  "devDependencies": {
+    "canvas": "^2.9.1"
   }
 }
